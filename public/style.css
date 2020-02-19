@@ -14,3 +14,18 @@
     grid-gap: 6px;
     margin: 0 auto;
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Satisfy&display=swap');
+span {
+  color:red;
+  font-size: 18px;
+  font-family: 'Satisfy', cursive;
+}
+select {
+  padding: 5px;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+}
