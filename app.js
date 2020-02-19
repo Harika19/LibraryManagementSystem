@@ -46,7 +46,8 @@ app.post("/booksearch", function(req, res) {
         }
     ];
     let booksearch = req.body;
-    res.render("booksearchshow", { bb: booksearch });
+    console.log(booksearch);
+    res.render("booksearchshow", { bb: booksearch, datas: q });
 });
 
 app.get("/bookissue", (req, res) => {

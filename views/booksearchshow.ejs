@@ -1,2 +1,10 @@
 <h1>BOOK SEARCH RESULT</h1>
-<h3><%= bb.bname %></h3>
+<h3>
+    <% for(let i=0; i < datas.length; i++) { %> <% if(datas[i].id ===
+    parseInt(bb.bname)) { %>
+    <h1>Name : <span class="data_details"><%= datas[i].name %></span></h1>
+    <h1>ID : <span class="data_details"><%= datas[i].id %></span></h1>
+    <% break; %> <% } else { %>
+    <h1>Entry not available</h1>
+    <% } %> <% } %>
+</h3>
