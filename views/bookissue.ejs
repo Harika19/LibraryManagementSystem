@@ -1,0 +1,18 @@
+<%- include ('./partials/header') %>
+
+<form action="/bookissue" method="POST">
+    <h1>ISSUE A BOOK</h1>
+    <p>
+        <span>Search by : </span>
+        <select name="bookInfo">
+            <option value="bookname">BookName</option>
+            <option value="bookid">BookID</option>
+        </select>
+    </p>
+    <br />
+    <label for="bname">Book Name:</label>
+    <input type="text" name="bname" id="bname" name="bname" /><br /><br />
+    <button class="xxx">Submit</button>
+</form>
+
+<%- include ('./partials/footer') %>

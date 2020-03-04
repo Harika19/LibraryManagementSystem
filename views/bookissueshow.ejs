@@ -1,0 +1,9 @@
+<h1>BOOK ISSUE RESULT</h1>
+<h3>
+    <% for(let i=0; i < dataw.length; i++) { %> <% if(dataw[i].id ===
+    parseInt(bb.bname)) { %>
+    <h1>Name : <span class="data_details"><%= dataw[i].name %></span></h1>
+    <h1>ID : <span class="data_details"><%= dataw[i].id %></span></h1>
+    <h1>COUNT OF BOOKS AFTER ISSUING : <span class="data_details"><%= (dataw[i].count)-1 %></span></h1>
+    <% break; %> <% }  %> <% } %>
+</h3>

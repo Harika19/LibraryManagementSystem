@@ -1,0 +1,21 @@
+<%- include ('./partials/header') %>
+<div class="container">
+    <form id="form" class="form" action="/login" method="POST">
+        <h2>Login portal</h2>
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter username" />
+
+        </div>
+
+        <div class="form-control">
+            <label for="department">Dept</label>
+            <input type="text" name="department" id="department" placeholder="Enter department" />
+
+        </div>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<%- include ('./partials/footer') %>
